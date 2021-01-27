@@ -79,3 +79,10 @@ jobs:
     changedFilesOnly: # optional, default is false
     # String. Enter the path to your coverage-final.json (Example: coverage/coverage-final.json)
     coverageJsonPath: # optional
+    
+    - name: NPM SemVer
+  uses: odinr/action-npm-semver@v1
+
+- name: npm-goggles
+  uses: hertzg/action-npm-goggles@v1.0.0
+
